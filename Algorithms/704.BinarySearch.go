@@ -1,6 +1,6 @@
 package Algorithms
 
-func search(nums []int, target int) int {
+func Search(nums []int, target int) int {
 	l, r := 0, len(nums)-1
 	for l < r {
 		m := (l + r) / 2
