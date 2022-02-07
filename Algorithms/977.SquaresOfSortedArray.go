@@ -21,6 +21,5 @@ func sortedSquares(nums []int) []int {
 		i--
 	}
 	ansSlice[i] = leftValue
-
 	return ansSlice
 }
